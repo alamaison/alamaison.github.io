@@ -6,14 +6,14 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          'The Jekyll Butler'
-description:      'Base theme for Jekyll themes by @mdo.'
-url:              http://getpoole.com
+title:            Confessions of a Disorderly House
+tagline:          'C++ and other geekery'
+#description:      'Base theme for Jekyll themes by @mdo.'
+url:              http://alamaison/alamaison.github.io
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Alexander Lamaison'
+  url:            https://twitter.com/DisorderlyHouse
 
 paginate:         1
 
@@ -21,4 +21,4 @@ paginate:         1
 version:          1.0.0
 
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/alamaison
