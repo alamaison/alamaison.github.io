@@ -1,0 +1,18 @@
+
+/* Code */
+code,
+pre {
+  font-family: Menlo, Monaco, 'Inconsolata', monospace;
+}
+code {
+  /* The code padding in the poole theme messes up inline code when next
+     to punctuation or a margin. */
+  padding-left: 0px;
+  padding-right: 0px;
+}
+pre {
+  /* The default padding was just a little too roomy above and below */
+  padding: 0.7rem;
+  padding-bottom: 0.9rem;
+  line-height: 1.1;
+}
