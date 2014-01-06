@@ -6,9 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Confessions of a Disorderly House
-tagline:          'C++ and other geekery'
-#description:      'Base theme for Jekyll themes by @mdo.'
+title:            CoaDH
+tagline:          'Confessions of a Disorderly House'
+description:      'C++ and other geekery'
 url:              http://alamaison/alamaison.github.io
 
 author:
