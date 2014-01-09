@@ -3,28 +3,37 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+This blog contains the random musings of Alexander Lamaison.  Much of
+it will be programming-related, with C++ a particular favourite.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Musings are often provoked by work on my various open-source projects.
 
-There are currently two themes built on Poole:
+# [Gander: an abstract interpreter for Python written in Java](https://github.com/alamaison/gander)
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+As part of [my PhD research](/public/thesis.pdf) on advanced type
+inference for Python, I developed an
+[abtract interpreter](https://github.com/alamaison/gander) capable of
+sybolically executing real-world Python programs.  The interpreter is
+aimed at type inference but should be applicable to other
+program-analysis problems.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+# [Swish: easy SFTP for Windows Explorer](http://www.swish-sftp.org)
 
-## Setup
+Windows Explorer has built-in support for FTP but not SFTP.  Swish is
+an Explorer namespace extension that add this support. Its main goal
+is ease-of-use.
 
-Some fun facts about the setup of this project include:
+# [Emacs cmake-project mode](https://github.com/alamaison/emacs-cmake-project)
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.org), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+Emacs build tools for C/C++ assume a Makefile exists for the project
+but this isn't necessarily the case for projects managed by CMake
+which can generate many different types of project file. I developed
+[cmake-project.el](https://github.com/alamaison/emacs-cmake-project/blob/master/cmake-project.el)
+which integrates the CMake build process with the existing Emacs
+tools.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+# [Coliru Javascript library](https://github.com/alamaison/coliru)
 
-Thanks for reading!
+My first foray into proper Javascript development allows you to
+compile code snippets on-demand directly in your web-page via the
+[Coliru](http://coliru.stacked-crooked.com/) online compiler.
