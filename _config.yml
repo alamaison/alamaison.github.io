@@ -1,5 +1,9 @@
 # Dependencies
 markdown:         redcarpet
+
+# Match github
+safe:             true
+lsi:              false
 pygments:         true
 
 # Permalinks
@@ -10,7 +14,6 @@ title:            CoaDH
 tagline:          'Confessions of a Disorderly House'
 description:      'C++ and other geekery'
 url:              http://alamaison/alamaison.github.io
-
 author:
   name:           'Alexander Lamaison'
   url:            https://twitter.com/DisorderlyHouse
@@ -18,7 +21,5 @@ author:
 paginate:         1
 
 # Custom vars
-version:          1.0.0
-
 github:
   repo:           https://github.com/alamaison

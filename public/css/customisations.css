@@ -2,17 +2,70 @@
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, 'Inconsolata', monospace;
+    font-family: Menlo, Monaco, 'Inconsolata', monospace;
 }
 code {
-  /* The code padding in the poole theme messes up inline code when next
-     to punctuation or a margin. */
-  padding-left: 0px;
-  padding-right: 0px;
+    /* The code padding in the poole theme messes up inline code when next
+       to punctuation or a margin. */
+    padding-left: 0rem;
+    padding-right: 0rem;
 }
 pre {
-  /* The default padding was just a little too roomy above and below */
-  padding: 0.7rem;
-  padding-bottom: 0.9rem;
-  line-height: 1.1;
+    /* The default padding was just a little too roomy above and below */
+    padding: 0.7rem;
+    padding-bottom: 0.9rem;
+    line-height: 1.1;
+}
+.coliru {
+    font-size: 80%;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 0.05rem solid;
+    border-radius: 0.2rem;
+    background-color: none;
+}
+
+.coliru[data-coliru-state] {
+    border-color: red;
+}
+.coliru[data-coliru-state="not-run"] {
+    border: none;
+    margin: 0rem;
+    padding: 0rem;
+    background: none;
+}
+.coliru[data-coliru-state="running"] {
+    border-color: orange;
+}
+.coliru[data-coliru-state="error"] {
+    border-color: red;
+}
+.coliru[data-coliru-state="0"] {
+    border-color: #268bd2;
+}
+
+.coliru-output {
+    background: none;
+}
+.coliru-credit {
+    float: right;
+    display: inline;
+}
+.coliru-status {
+
+    display: inline;
+}
+
+.coliru .runbutton {
+    font-size: 60%;
+    float: right;
+    color: #268bd2;
+    cursor: pointer;
+}
+.coliru .runbutton:hover {
+    color: orange;
+}
+.coliru .runbutton:before {
+    content: "\203A";
+    padding-right: 0.1rem;
 }
