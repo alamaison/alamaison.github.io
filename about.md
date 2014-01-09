@@ -8,7 +8,7 @@ it will be programming-related, with C++ a particular favourite.
 
 Musings are often provoked by work on my various open-source projects.
 
-# [Gander: an abstract interpreter for Python written in Java](https://github.com/alamaison/gander)
+## Gander: an abstract interpreter for Python written in Java
 
 As part of [my PhD research](/public/thesis.pdf) on advanced type
 inference for Python, I developed an
@@ -17,23 +17,25 @@ sybolically executing real-world Python programs.  The interpreter is
 aimed at type inference but should be applicable to other
 program-analysis problems.
 
-# [Swish: easy SFTP for Windows Explorer](http://www.swish-sftp.org)
+## Swish: easy SFTP for Windows Explorer
 
-Windows Explorer has built-in support for FTP but not SFTP.  Swish is
-an Explorer namespace extension that add this support. Its main goal
-is ease-of-use.
+Windows Explorer has built-in support for FTP but not SFTP.
+[Swish](http://www.swish-sftp.org) is an Explorer namespace extension
+that add this support. Its main goal is ease-of-use.
 
-# [Emacs cmake-project mode](https://github.com/alamaison/emacs-cmake-project)
+## Emacs cmake-project mode
 
 Emacs build tools for C/C++ assume a Makefile exists for the project
 but this isn't necessarily the case for projects managed by CMake
 which can generate many different types of project file. I developed
-[cmake-project.el](https://github.com/alamaison/emacs-cmake-project/blob/master/cmake-project.el)
+[cmake-project.el](https://github.com/alamaison/emacs-cmake-project)
 which integrates the CMake build process with the existing Emacs
 tools.
 
-# [Coliru Javascript library](https://github.com/alamaison/coliru)
+## Coliru Javascript library
 
-My first foray into proper Javascript development allows you to
+My first foray into proper Javascript development is
+[coliru.js](https://github.com/alamaison/coliru), which allows you to
 compile code snippets on-demand directly in your web-page via the
-[Coliru](http://coliru.stacked-crooked.com/) online compiler.
+excellent [Coliru](http://coliru.stacked-crooked.com/) online
+compiler.
