@@ -3,8 +3,9 @@ layout: page
 title: About
 ---
 
-This blog contains the random musings of Alexander Lamaison.  Much of
-it will be programming-related, with C++ a particular favourite.
+This blog contains the random musings of
+[Alexander Lamaison](https://twitter.com/DisorderlyHouse).  Much of it
+will be programming-related, with C++ a particular favourite.
 
 Musings are often provoked by work on my various open-source projects.
 
